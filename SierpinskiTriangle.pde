@@ -55,7 +55,7 @@ else {
 }
 
 void draw(){
-if(getState(83)) zOff += 0.01;
+ zOff += 0.01;
 fill(22, 22, 22, 17);
 rect(0, 0, 2222, 2222);
 translate(width/2, height/2, 333);
